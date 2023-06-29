@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  background: powderblue;
+  font-family: "Candara";
+}
+
+label{
+  display: block;
+}
+label p{
+  font-size: 1.2em
+}
+
+.main{
+  background: aliceblue;
+  padding: 10px;
+}
+
+.mainForm{
+  max-width: 500px;
+  margin: 20px auto;
+  border: 2px solid dimgrey;
+  border-radius: 10px;
+  padding: 10px;
+  background: lightgreen;
+}
+h1{
+  font-size: 60px;
+}
+
+button{
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+  background-color: aliceblue;
+  font-size: 1em;
+}
+button:hover{
+  background-color: rgb(202, 238, 224);
+  cursor: pointer;
+}
+
+input{
+  font-size: 1em;
+  padding: 5px;
+  width: 75px;
+}
+
+.prevValues{
+  max-width: 500px;
+  margin: 20px auto;
+  border: 1px solid dimgrey;
+  border-radius: 10px;
+  padding: 10px;
+  background: lightgreen;
+}
+
+.prevValues h2{
+  border-bottom: 2px solid;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.prevValues h3{
+  text-align: justify;
+  padding: 5px 20%;
+}
+
+/*Вращение картинки*/
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+img{
+  animation: spin 5s linear 0s infinite;
+  width: 75px;
+  margin-top: 5px;
+}
